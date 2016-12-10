@@ -1,0 +1,32 @@
+{
+  "name": "yamaha_musiccast_scrobbler",
+  "version": "1.0.0",
+  "description": "Last.FM scrobbler for Yamaha MusicCast devices, ie. CRX-N470D",
+  "main": "last.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodejs last.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arekk/yamaha_musiccast_scrobbler.git"
+  },
+  "keywords": [
+    "last.fm",
+    "scrobble",
+    "yamaha",
+    "musiccast"
+  ],
+  "author": "Arkadiusz Kurylowicz",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/arekk/yamaha_musiccast_scrobbler/issues"
+  },
+  "homepage": "https://github.com/arekk/yamaha_musiccast_scrobbler#readme",
+  "dependencies": {
+    "node-ssdp": "3.x.x",
+    "lodash": "latest",
+    "crypto": "latest",
+    "lastfmapi": "0.1.1"
+  }
+}
